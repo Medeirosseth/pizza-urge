@@ -2,18 +2,22 @@ function Pizza(size, top1, top2, total){
   this.size = size;
   this.topping1 = top1;
   this.topping2 = top2;
-  this.total = [];
+  this.total = 0;
 }
 let newPizza = new Pizza("","","")
 
 Pizza.prototype.sizeCost=function(){
-  if (this.size === "large"){
+  if (newPizza.size === "large"){
     this.total = 15
   } else if (this.size === "medium"){
     this.total = 10
-  } else (this.size === "small")
+  } else if (this.size === "small")
     this.total = 5
    return this.total;
+}
+
+Pizza.prototype.top1Cost=function(){
+
 }
 
 
@@ -42,12 +46,13 @@ $(document).ready(function() {
     newPizza.topping1 = toppingOne  
     let toppingTwo = $("select#topping2").val();
     newPizza.topping2 = toppingTwo 
-    $("#displaySize").text(size)
-    $("#top1").text(toppingOne)
-    $("#top2").text(toppingTwo)
-    $("#hiddenOrder").show()
+    $("#displaySize").text(newPizza.size);
+    $("#top1").text(newPizza.topping1);
+    $("#top2").text(newPizza.topping2);
+    $("#total").text(newPizza.sizeCost());
+    $("#hiddenOrder").show();
     let orderIn = new Pizza(size, toppingOne, toppingTwo)
-    console.log(orderIn)
+    
   });
 });
 
