@@ -23,7 +23,7 @@ _Pizza landing page used to demonstrate understanding of constuctors and prototy
 * _Open the cloned repository with your file manager and run index.html_
 * _[Click Here](https://medeirosseth.github.io/pizza-urge/) to veiw website_
 
-## Known Bugs
+## Known Bugs :no_entry_sign: :bug:
 
 * _None known_
 
