@@ -1,7 +1,7 @@
 
-#### _{:pizza: Pizza Urge :pizza: }_
+#### _:pizza: Pizza Urge :pizza: _
 
-#### By _**{Seth Medeiros}**_
+#### By _**:neckbeard:Seth Medeiros**_
 
 ## Technologies Used
 
@@ -11,9 +11,9 @@
 * _Jquery_
 * _Github_
 
-## Description
+## Description:memo:
 
-_{Pizza landing page used to demonstrate understanding of constuctors and prototypes by "ordering" diffrent sizes and toppings returning the sum of corresponding totals}_
+_Pizza landing page used to demonstrate understanding of constuctors and prototypes by "ordering" diffrent sizes and toppings returning the sum of corresponding totals_
 
 ## Setup/Installation Requirements :open_file_folder:
 
@@ -22,8 +22,6 @@ _{Pizza landing page used to demonstrate understanding of constuctors and protot
 * _Open your terminal and run Git Clone (followed by the URL)_
 * _Open the cloned repository with your file manager and run index.html_
 * _[Click Here](https://github.com/Medeirosseth/pizza-urge)_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
