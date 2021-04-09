@@ -21,7 +21,7 @@ _Pizza landing page used to demonstrate understanding of constuctors and prototy
 * _Click the green Code button and retrieve git_
 * _Open your terminal and run Git Clone (followed by the URL)_
 * _Open the cloned repository with your file manager and run index.html_
-* _[Click Here](https://github.com/Medeirosseth/pizza-urge)_
+* _[Click Here](https://github.com/Medeirosseth/pizza-urge) to veiw website_
 
 ## Known Bugs
 
