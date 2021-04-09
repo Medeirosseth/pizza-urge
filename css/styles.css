@@ -24,5 +24,9 @@ justify-content: center;
 
 html{
   background-image: url(/pizza\ background.png);
-  background-repeat: ;
+  background-repeat: round;
+}
+
+#pizza-box{
+  border: solid;
 }

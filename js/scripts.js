@@ -13,14 +13,28 @@ Pizza.prototype.sizeCost=function(){
     this.total = 10
   } else if (this.size === "small")
     this.total = 5
-   return this.total;
+  if (newPizza.topping1 === "cheese"){
+    this.total += 1
+  } else if (this.topping1 === "mushroom"){
+    this.total += 2
+  } else if (this.topping1 === "pineapple"){
+    this.total += 3
+  } 
+  if (newPizza.topping2 === "black-olives"){
+    this.total += 1
+  } else if (this.topping2 === "sun-dried-tomatoes"){
+    this.total += 2
+  } else if (this.topping2 === "basil")
+    this.total += 3
+    return this.total;
+    
+   
 }
 
 Pizza.prototype.top1Cost=function(){
-  this.total
   if (newPizza.topping1 === "cheese"){
     this.total += 2
-  } return this.total + this.total;
+  } return this.total;
 }
 
 
@@ -52,9 +66,9 @@ $(document).ready(function() {
     $("#displaySize").text(newPizza.size);
     $("#top1").text(newPizza.topping1);
     $("#top2").text(newPizza.topping2);
-    $("#total").text(newPizza.sizeCost());
+    $("#total").text("$"newPizza.sizeCost());
     $("#hiddenOrder").show();
-    let orderIn = new Pizza(size, toppingOne, toppingTwo)
+    let newPizza = new Pizza(size, toppingOne, toppingTwo)
     
   });
 });
