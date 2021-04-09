@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,32 +10,36 @@
   <script src="js/scripts.js"></script>  
   <title>Pizza Urge</title>
 </head>
+
 <body>
+  <img id="pizza-urge" src="Pizza Urge.png" alt="image of text saying Pizza Urge">
   <h3>Order a Pie</h3>
-  <form id="pizzaForm">
-    <label for="size">Size</label>
-    <select name="size" id="size">
-      <option value="large">Large $15</option>
-      <option value="medium">Medium $10</option>
-      <option value="small">Small $5</option>
-    </select>
-    <br>
-    <label for="topping1">First Topping</label>
-    <select name="topping1" id="topping1">
-      <option value="cheese">Three Cheese blend +$2</option>
-      <option value="mushroom">Mushroom +$2</option>
-      <option value="pineapple">Pineapple +$2</option>
-    </select>
-    <br>
-    <label for="topping2">Second Topping</label>
-    <select name="topping2" id="topping2">
-      <option value="black-olives">Black Olives +$2</option>
-      <option value="sun-dried-tomatoes">Sun-dried Tomatoes +$2</option>
-      <option value="basil">Basil +$2</option>
-    </select>
-    <br>
-    <button type="submit" class="btn">Submit</button>
-  </form>
+  <div class="container" id="pizza-box">
+    <form id="pizzaForm">
+      <label for="size">Size</label>
+      <select name="size" id="size">
+        <option value="large">Large $15</option>
+        <option value="medium">Medium $10</option>
+        <option value="small">Small $5</option>
+      </select>
+      <br>
+      <label for="topping1">First Topping</label>
+      <select name="topping1" id="topping1">
+        <option value="cheese">Three Cheese blend +$2</option>
+        <option value="mushroom">Mushroom +$2</option>
+        <option value="pineapple">Pineapple +$2</option>
+      </select>
+      <br>
+      <label for="topping2">Second Topping</label>
+      <select name="topping2" id="topping2">
+        <option value="black-olives">Black Olives +$2</option>
+        <option value="sun-dried-tomatoes">Sun-dried Tomatoes +$2</option>
+        <option value="basil">Basil +$2</option>
+      </select>
+      <br>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
   <div>
     <ul id="hiddenOrder">
       <li>Size: <span id="displaySize"></span></li>

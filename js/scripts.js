@@ -17,7 +17,8 @@ Pizza.prototype.sizeCost=function(){
 }
 
 Pizza.prototype.top1Cost=function(){
-  if (newPizza.topping1 ==="black-olives sun-dired-tomatoes basil"){
+  this.total
+  if (newPizza.topping1 === "cheese"){
     this.total += 2
   } return this.total + this.total;
 }

@@ -15,3 +15,14 @@ ul{
 #hiddenOrder{
   display: none;
 }
+
+#pizza-urge{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+html{
+  background-image: url(/pizza\ background.png);
+  background-repeat: ;
+}
