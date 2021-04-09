@@ -31,28 +31,6 @@ Pizza.prototype.sizeCost=function(){
    
 }
 
-Pizza.prototype.top1Cost=function(){
-  if (newPizza.topping1 === "cheese"){
-    this.total += 2
-  } return this.total;
-}
-
-
-
-//// user goes to website
-//// selector has prices on each option 
-//// selects size of pie large is 15 medium is 10 small is 5
-//// selects topping1 each topping is 2 dollars
-//// selects topping2 each topping is 2 dollars
-//// submit button reveals users toppings with price total 
-//// create pizza.prototype.size() that adds price of this.size
-//// create topping pizza.prototype.firstTopping() that adds price of first topping
-//// create topppin2 pizza.prototype.secondTopping() that adds price of second topping
-
-
-
-
-
 
 $(document).ready(function() {
   $("#pizzaForm").submit(function(event) {
