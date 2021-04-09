@@ -11,6 +11,10 @@ body{
 ul{
   list-style-type: none;
 }
+ul:hover{
+  font-size: large;
+  font-weight: bolder;
+}
 
 #hiddenOrder{
   display: none;
@@ -29,4 +33,20 @@ html{
 
 #pizza-box{
   border: solid;
+  filter: drop-shadow(8px 8px 10px rgb(228, 95, 95))
+}
+
+#pizza{
+  width: 50px;
+}
+
+.btn{
+font-size: larger;
+background-color: black;
+border: solid 2px white;
+color: white;
+}
+
+.btn:hover{
+  color: rgb(247, 154, 154);
 }

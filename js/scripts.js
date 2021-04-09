@@ -66,9 +66,9 @@ $(document).ready(function() {
     $("#displaySize").text(newPizza.size);
     $("#top1").text(newPizza.topping1);
     $("#top2").text(newPizza.topping2);
-    $("#total").text("$"newPizza.sizeCost());
+    $("#total").text(newPizza.sizeCost());
     $("#hiddenOrder").show();
-    let newPizza = new Pizza(size, toppingOne, toppingTwo)
+    let orderIn = new Pizza(size, toppingOne, toppingTwo)
     
   });
 });
