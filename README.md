@@ -13,7 +13,7 @@
 
 ## Description:memo:
 
-_Pizza landing page used to demonstrate understanding of constuctors and prototypes by "ordering" diffrent sizes and toppings returning the sum of corresponding totals_
+_Pizza landing page used to demonstrate understanding of constuctors and prototypes by "ordering" different sizes and toppings returning the sum of corresponding totals_ 
 
 ## Setup/Installation Requirements :open_file_folder:
 
